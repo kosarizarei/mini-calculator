@@ -8,4 +8,6 @@ A minimal chain calculator in Python that:
 - Supports +, -, *, /
 - Handles invalid operations and division by zero
 
+
 ## Example
+10 + 11 * 9 = 189.0
