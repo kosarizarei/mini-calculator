@@ -4,7 +4,7 @@ x = float(input('Number: '))
 while True:
     op = input("Operation (+ - * /) or = : ")
     if op == '=':
-        print(f"\nResult: {x}")
+        print(f"\nYou'r Result: {x}")
         break
     elif op not in ['+', '-', '*', '/']:
         print("Invalid operation!")
@@ -24,4 +24,5 @@ while True:
         if y == 0:
             print("Division by zero!")
             continue
+
         x /= y
